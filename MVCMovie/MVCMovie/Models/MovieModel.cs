@@ -23,7 +23,6 @@ namespace MVCMovie.Models
         [Display(Name ="Release Date")]
         [Required(ErrorMessage ="You need to provide release date.")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        [DataType(DataType.Date)]
         public DateTime? ReleaseDate { get; set; }        
 
         public string ImgPath { get; set; }
