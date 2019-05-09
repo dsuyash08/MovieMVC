@@ -1,0 +1,6 @@
+D:\MVC\MVCMovie\MVCMovie\IMDB\bin\Debug\IMDB.dacpac
+D:\MVC\MVCMovie\MVCMovie\IMDB\bin\Debug\IMDB.dll
+D:\MVC\MVCMovie\MVCMovie\IMDB\bin\Debug\IMDB.pdb
+D:\MVC\MVCMovie\MVCMovie\IMDB\obj\Debug\IMDB.dll
+D:\MVC\MVCMovie\MVCMovie\IMDB\obj\Debug\IMDB.pdb
+D:\MVC\MVCMovie\MVCMovie\IMDB\obj\Debug\IMDB.sqlprojAssemblyReference.cache

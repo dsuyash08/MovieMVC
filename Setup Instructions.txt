@@ -1,0 +1,30 @@
+Setup Instructions:
+
+Tools Used: 
+Visual Studio 2017
+.Net Framework- 4.6.1
+MVC 5
+
+Packages Installed in project:
+1. Dapper: To handle database CRUD operations.
+2. jquery.UI.Combined
+
+Steps:
+
+1. Setup a database and execute the scripts provided in 'DatabaseSripts folder' to create the necessary tables/objects for the project. Refer to DatabaseOverview.docs for information on database.
+2. Open web.config file and replace the present connection string with the new connection string of you database.
+<connectionStrings>
+    <add name="IMDB" connectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=IMDB;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;" />
+</connectionStrings>
+Note: Name(IMDB) provided here for the connectionString is being referred in 'DataLibrary' of the project, so please provide connectstring name as "IMDB"
+3. Open the solution file for MVCMovie and run the project.
+
+
+Project Overview:
+There are three sub projects created in the project.
+1. DataLibrary: 
+	It handles database crud operations being utilized in the project.
+	a. BusinessLayer: It is having the models required for the project(Actor,Producer,Movie).
+	b. DataAccessLayer: It interacts with the database and provides necessary information(MoviesHandler).
+2. IMDB: It was used to generate database for the project.
+3. MVCMovie: It handles the MVC part of the application.

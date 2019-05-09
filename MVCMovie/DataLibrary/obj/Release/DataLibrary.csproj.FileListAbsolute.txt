@@ -1,0 +1,9 @@
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\bin\Release\DataLibrary.dll
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\bin\Release\DataLibrary.pdb
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\bin\Release\Dapper.dll
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\bin\Release\Dapper.xml
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\obj\Release\DataLibrary.csprojAssemblyReference.cache
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\obj\Release\DataLibrary.csproj.CoreCompileInputs.cache
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\obj\Release\DataLibrary.csproj.CopyComplete
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\obj\Release\DataLibrary.dll
+D:\MVC\MVCMovie\MVCMovie\DataLibrary\obj\Release\DataLibrary.pdb

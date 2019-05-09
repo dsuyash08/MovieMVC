@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MVCMovie.Models.MovieModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Available Movies</h2>
+
+  
+@foreach (var item in Model) {
+<h3>@Html.DisplayFor(modelItem => item.MovieName)</h3>
+<div>
+    <div><img src="@Url.Content(item.ImgPath)" width="300" height="300" /></div>
+    <div><h4>Plot </h4><p>@Html.DisplayFor(modelItem => item.Plot)</p></div>
+    <div><h4>Release Date </h4><p>@Html.DisplayFor(modelItem => item.ReleaseDate)</p></div>
+    <div><h4>Producer </h4><p>@Html.DisplayFor(modelItem => item.Producer)</p></div>
+    <div><h4>Actors </h4><p>@Html.DisplayFor(modelItem => item.Actors)</p></div>
+    <div>
+        @Html.ActionLink("Edit", "Edit", new { id = item.MovieId })
+    </div>
+</div><hr />
+}
+
